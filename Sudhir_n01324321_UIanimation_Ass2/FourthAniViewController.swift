@@ -10,11 +10,34 @@ import UIKit
 
 class FourthAniViewController: UIViewController {
 
+    
+    @IBOutlet weak var myCard1: UIImageView!
+    
+    
+    
+    @IBOutlet weak var myCard2: UIImageView!
+    
+    
+    @IBOutlet weak var mybtnemail: UIImageView!
+    
+    
+    @IBOutlet weak var mybtnnumber: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        UIView.animate(withDuration: 1, animations: {
+              self.myCard1.frame.origin.y += 40
+            self.myCard2.frame.origin.y += 40
+ 
+            self.mybtnemail.frame.origin.x += 60
+            self.mybtnnumber.frame.origin.x -= 60
+            
+            
+            
+            
+          }, completion: nil)    }
     
 
     /*

@@ -10,21 +10,47 @@ import UIKit
 
 class FifthAniViewController: UIViewController {
 
+    
+    @IBOutlet weak var myLable: UILabel!
+    
+    
+    @IBOutlet weak var gmailBtn: UIImageView!
+    
+    @IBOutlet weak var mySignup: UIImageView!
+    
+    
+    @IBOutlet weak var myGmail: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.myLable.transform = CGAffineTransform(scaleX: 0, y: 0)
+        
+        self.mySignup.transform = CGAffineTransform(scaleX: 0, y: 0)
 
-        // Do any additional setup after loading the view.
+        self.myGmail.transform = CGAffineTransform(scaleX: 0, y: 0)
+        
+        self.gmailBtn.transform = CGAffineTransform(scaleX: 0, y: 0)
+
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.curveEaseIn], animations: {
+            self.myLable.transform  = .identity
+        })
+        
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.curveEaseIn], animations: {
+            self.mySignup.transform  = .identity
+        })
+
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.curveEaseIn], animations: {
+            self.myGmail.transform  = .identity
+        })
+         
+        
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.curveEaseIn], animations: {
+            self.gmailBtn.transform  = .identity
+        })
+
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
