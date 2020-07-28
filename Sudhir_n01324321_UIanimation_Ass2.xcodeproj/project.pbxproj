@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995FB73524D01541000B2A2B /* SecondAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73424D01541000B2A2B /* SecondAniViewController.swift */; };
+		995FB73724D01565000B2A2B /* ThirdAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73624D01565000B2A2B /* ThirdAniViewController.swift */; };
+		995FB73924D01582000B2A2B /* FourthAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73824D01582000B2A2B /* FourthAniViewController.swift */; };
+		995FB73B24D01599000B2A2B /* FifthAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73A24D01599000B2A2B /* FifthAniViewController.swift */; };
+		995FB73D24D01704000B2A2B /* SixthAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73C24D01704000B2A2B /* SixthAniViewController.swift */; };
+		995FB73F24D0171B000B2A2B /* SeventAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB73E24D0171B000B2A2B /* SeventAniViewController.swift */; };
+		995FB74124D01736000B2A2B /* EightAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB74024D01736000B2A2B /* EightAniViewController.swift */; };
+		995FB74324D01748000B2A2B /* NinthAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB74224D01748000B2A2B /* NinthAniViewController.swift */; };
+		995FB74524D0175A000B2A2B /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FB74424D0175A000B2A2B /* TenthViewController.swift */; };
 		99FB48AC24CFB02F00640073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AB24CFB02F00640073 /* AppDelegate.swift */; };
 		99FB48AE24CFB02F00640073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AD24CFB02F00640073 /* SceneDelegate.swift */; };
 		99FB48B024CFB02F00640073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AF24CFB02F00640073 /* ViewController.swift */; };
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995FB73424D01541000B2A2B /* SecondAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAniViewController.swift; sourceTree = "<group>"; };
+		995FB73624D01565000B2A2B /* ThirdAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAniViewController.swift; sourceTree = "<group>"; };
+		995FB73824D01582000B2A2B /* FourthAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthAniViewController.swift; sourceTree = "<group>"; };
+		995FB73A24D01599000B2A2B /* FifthAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthAniViewController.swift; sourceTree = "<group>"; };
+		995FB73C24D01704000B2A2B /* SixthAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthAniViewController.swift; sourceTree = "<group>"; };
+		995FB73E24D0171B000B2A2B /* SeventAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventAniViewController.swift; sourceTree = "<group>"; };
+		995FB74024D01736000B2A2B /* EightAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightAniViewController.swift; sourceTree = "<group>"; };
+		995FB74224D01748000B2A2B /* NinthAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthAniViewController.swift; sourceTree = "<group>"; };
+		995FB74424D0175A000B2A2B /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
 		99FB48A824CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudhir_n01324321_UIanimation_Ass2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FB48AB24CFB02F00640073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FB48AD24CFB02F00640073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,11 +122,20 @@
 				99FB48AB24CFB02F00640073 /* AppDelegate.swift */,
 				99FB48AD24CFB02F00640073 /* SceneDelegate.swift */,
 				99FB48AF24CFB02F00640073 /* ViewController.swift */,
+				995FB73424D01541000B2A2B /* SecondAniViewController.swift */,
+				995FB73624D01565000B2A2B /* ThirdAniViewController.swift */,
+				995FB73824D01582000B2A2B /* FourthAniViewController.swift */,
+				995FB73A24D01599000B2A2B /* FifthAniViewController.swift */,
 				99FB48B124CFB02F00640073 /* Main.storyboard */,
 				99FB48B724CFB03000640073 /* Assets.xcassets */,
 				99FB48B924CFB03000640073 /* LaunchScreen.storyboard */,
 				99FB48BC24CFB03000640073 /* Info.plist */,
 				99FB48B424CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld */,
+				995FB73C24D01704000B2A2B /* SixthAniViewController.swift */,
+				995FB73E24D0171B000B2A2B /* SeventAniViewController.swift */,
+				995FB74024D01736000B2A2B /* EightAniViewController.swift */,
+				995FB74224D01748000B2A2B /* NinthAniViewController.swift */,
+				995FB74424D0175A000B2A2B /* TenthViewController.swift */,
 			);
 			path = Sudhir_n01324321_UIanimation_Ass2;
 			sourceTree = "<group>";
@@ -262,10 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995FB73D24D01704000B2A2B /* SixthAniViewController.swift in Sources */,
+				995FB74124D01736000B2A2B /* EightAniViewController.swift in Sources */,
 				99FB48B024CFB02F00640073 /* ViewController.swift in Sources */,
+				995FB73924D01582000B2A2B /* FourthAniViewController.swift in Sources */,
 				99FB48AC24CFB02F00640073 /* AppDelegate.swift in Sources */,
+				995FB73F24D0171B000B2A2B /* SeventAniViewController.swift in Sources */,
 				99FB48AE24CFB02F00640073 /* SceneDelegate.swift in Sources */,
+				995FB73724D01565000B2A2B /* ThirdAniViewController.swift in Sources */,
 				99FB48B624CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld in Sources */,
+				995FB73524D01541000B2A2B /* SecondAniViewController.swift in Sources */,
+				995FB73B24D01599000B2A2B /* FifthAniViewController.swift in Sources */,
+				995FB74524D0175A000B2A2B /* TenthViewController.swift in Sources */,
+				995FB74324D01748000B2A2B /* NinthAniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
