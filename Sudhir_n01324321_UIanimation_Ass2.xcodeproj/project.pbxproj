@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FB48AC24CFB02F00640073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AB24CFB02F00640073 /* AppDelegate.swift */; };
+		99FB48AE24CFB02F00640073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AD24CFB02F00640073 /* SceneDelegate.swift */; };
+		99FB48B024CFB02F00640073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48AF24CFB02F00640073 /* ViewController.swift */; };
+		99FB48B324CFB02F00640073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FB48B124CFB02F00640073 /* Main.storyboard */; };
+		99FB48B624CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48B424CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld */; };
+		99FB48B824CFB03000640073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FB48B724CFB03000640073 /* Assets.xcassets */; };
+		99FB48BB24CFB03000640073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FB48B924CFB03000640073 /* LaunchScreen.storyboard */; };
+		99FB48C624CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48C524CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.swift */; };
+		99FB48D124CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB48D024CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99FB48C224CFB03100640073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FB48A024CFB02F00640073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FB48A724CFB02F00640073;
+			remoteInfo = Sudhir_n01324321_UIanimation_Ass2;
+		};
+		99FB48CD24CFB03100640073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FB48A024CFB02F00640073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FB48A724CFB02F00640073;
+			remoteInfo = Sudhir_n01324321_UIanimation_Ass2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99FB48A824CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudhir_n01324321_UIanimation_Ass2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB48AB24CFB02F00640073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99FB48AD24CFB02F00640073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99FB48AF24CFB02F00640073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99FB48B224CFB02F00640073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99FB48B524CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sudhir_n01324321_UIanimation_Ass2.xcdatamodel; sourceTree = "<group>"; };
+		99FB48B724CFB03000640073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FB48BA24CFB03000640073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99FB48BC24CFB03000640073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FB48C124CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sudhir_n01324321_UIanimation_Ass2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB48C524CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudhir_n01324321_UIanimation_Ass2Tests.swift; sourceTree = "<group>"; };
+		99FB48C724CFB03100640073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FB48CC24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sudhir_n01324321_UIanimation_Ass2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB48D024CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudhir_n01324321_UIanimation_Ass2UITests.swift; sourceTree = "<group>"; };
+		99FB48D224CFB03100640073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FB48A524CFB02F00640073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48BE24CFB03100640073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48C924CFB03100640073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FB489F24CFB02F00640073 = {
+			isa = PBXGroup;
+			children = (
+				99FB48AA24CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */,
+				99FB48C424CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests */,
+				99FB48CF24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests */,
+				99FB48A924CFB02F00640073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FB48A924CFB02F00640073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FB48A824CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.app */,
+				99FB48C124CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.xctest */,
+				99FB48CC24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FB48AA24CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */ = {
+			isa = PBXGroup;
+			children = (
+				99FB48AB24CFB02F00640073 /* AppDelegate.swift */,
+				99FB48AD24CFB02F00640073 /* SceneDelegate.swift */,
+				99FB48AF24CFB02F00640073 /* ViewController.swift */,
+				99FB48B124CFB02F00640073 /* Main.storyboard */,
+				99FB48B724CFB03000640073 /* Assets.xcassets */,
+				99FB48B924CFB03000640073 /* LaunchScreen.storyboard */,
+				99FB48BC24CFB03000640073 /* Info.plist */,
+				99FB48B424CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld */,
+			);
+			path = Sudhir_n01324321_UIanimation_Ass2;
+			sourceTree = "<group>";
+		};
+		99FB48C424CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99FB48C524CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.swift */,
+				99FB48C724CFB03100640073 /* Info.plist */,
+			);
+			path = Sudhir_n01324321_UIanimation_Ass2Tests;
+			sourceTree = "<group>";
+		};
+		99FB48CF24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				99FB48D024CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.swift */,
+				99FB48D224CFB03100640073 /* Info.plist */,
+			);
+			path = Sudhir_n01324321_UIanimation_Ass2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FB48A724CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB48D524CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2" */;
+			buildPhases = (
+				99FB48A424CFB02F00640073 /* Sources */,
+				99FB48A524CFB02F00640073 /* Frameworks */,
+				99FB48A624CFB02F00640073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sudhir_n01324321_UIanimation_Ass2;
+			productName = Sudhir_n01324321_UIanimation_Ass2;
+			productReference = 99FB48A824CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99FB48C024CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB48D824CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2Tests" */;
+			buildPhases = (
+				99FB48BD24CFB03100640073 /* Sources */,
+				99FB48BE24CFB03100640073 /* Frameworks */,
+				99FB48BF24CFB03100640073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FB48C324CFB03100640073 /* PBXTargetDependency */,
+			);
+			name = Sudhir_n01324321_UIanimation_Ass2Tests;
+			productName = Sudhir_n01324321_UIanimation_Ass2Tests;
+			productReference = 99FB48C124CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99FB48CB24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB48DB24CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2UITests" */;
+			buildPhases = (
+				99FB48C824CFB03100640073 /* Sources */,
+				99FB48C924CFB03100640073 /* Frameworks */,
+				99FB48CA24CFB03100640073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FB48CE24CFB03100640073 /* PBXTargetDependency */,
+			);
+			name = Sudhir_n01324321_UIanimation_Ass2UITests;
+			productName = Sudhir_n01324321_UIanimation_Ass2UITests;
+			productReference = 99FB48CC24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FB48A024CFB02F00640073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = n01324321;
+				TargetAttributes = {
+					99FB48A724CFB02F00640073 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					99FB48C024CFB03100640073 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 99FB48A724CFB02F00640073;
+					};
+					99FB48CB24CFB03100640073 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 99FB48A724CFB02F00640073;
+					};
+				};
+			};
+			buildConfigurationList = 99FB48A324CFB02F00640073 /* Build configuration list for PBXProject "Sudhir_n01324321_UIanimation_Ass2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FB489F24CFB02F00640073;
+			productRefGroup = 99FB48A924CFB02F00640073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FB48A724CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */,
+				99FB48C024CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests */,
+				99FB48CB24CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FB48A624CFB02F00640073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB48BB24CFB03000640073 /* LaunchScreen.storyboard in Resources */,
+				99FB48B824CFB03000640073 /* Assets.xcassets in Resources */,
+				99FB48B324CFB02F00640073 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48BF24CFB03100640073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48CA24CFB03100640073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FB48A424CFB02F00640073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB48B024CFB02F00640073 /* ViewController.swift in Sources */,
+				99FB48AC24CFB02F00640073 /* AppDelegate.swift in Sources */,
+				99FB48AE24CFB02F00640073 /* SceneDelegate.swift in Sources */,
+				99FB48B624CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48BD24CFB03100640073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB48C624CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FB48C824CFB03100640073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB48D124CFB03100640073 /* Sudhir_n01324321_UIanimation_Ass2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99FB48C324CFB03100640073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FB48A724CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */;
+			targetProxy = 99FB48C224CFB03100640073 /* PBXContainerItemProxy */;
+		};
+		99FB48CE24CFB03100640073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FB48A724CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2 */;
+			targetProxy = 99FB48CD24CFB03100640073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99FB48B124CFB02F00640073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FB48B224CFB02F00640073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99FB48B924CFB03000640073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FB48BA24CFB03000640073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99FB48D324CFB03100640073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99FB48D424CFB03100640073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99FB48D624CFB03100640073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99FB48D724CFB03100640073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99FB48D924CFB03100640073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudhir_n01324321_UIanimation_Ass2.app/Sudhir_n01324321_UIanimation_Ass2";
+			};
+			name = Debug;
+		};
+		99FB48DA24CFB03100640073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudhir_n01324321_UIanimation_Ass2.app/Sudhir_n01324321_UIanimation_Ass2";
+			};
+			name = Release;
+		};
+		99FB48DC24CFB03100640073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sudhir_n01324321_UIanimation_Ass2;
+			};
+			name = Debug;
+		};
+		99FB48DD24CFB03100640073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sudhir_n01324321_UIanimation_Ass2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "n01324321.Sudhir-n01324321-UIanimation-Ass2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sudhir_n01324321_UIanimation_Ass2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FB48A324CFB02F00640073 /* Build configuration list for PBXProject "Sudhir_n01324321_UIanimation_Ass2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB48D324CFB03100640073 /* Debug */,
+				99FB48D424CFB03100640073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB48D524CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB48D624CFB03100640073 /* Debug */,
+				99FB48D724CFB03100640073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB48D824CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB48D924CFB03100640073 /* Debug */,
+				99FB48DA24CFB03100640073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB48DB24CFB03100640073 /* Build configuration list for PBXNativeTarget "Sudhir_n01324321_UIanimation_Ass2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB48DC24CFB03100640073 /* Debug */,
+				99FB48DD24CFB03100640073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99FB48B424CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99FB48B524CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodel */,
+			);
+			currentVersion = 99FB48B524CFB02F00640073 /* Sudhir_n01324321_UIanimation_Ass2.xcdatamodel */;
+			path = Sudhir_n01324321_UIanimation_Ass2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99FB48A024CFB02F00640073 /* Project object */;
+}
