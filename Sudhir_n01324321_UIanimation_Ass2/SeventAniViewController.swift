@@ -9,22 +9,42 @@
 import UIKit
 
 class SeventAniViewController: UIViewController {
+    
+let translate = CGAffineTransform(translationX: -120, y: -120)
+
+    
+    @IBOutlet weak var email: UITextField!
+    
+    
+    
+    @IBOutlet weak var password: UITextField!
+    
+    
+    @IBOutlet weak var myimg: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+        self.email.transform = translate
+        UIView.animate(withDuration: 1, delay: 0, options: .curveEaseInOut, animations: {
+            self.email.transform = .identity
+        }, completion: nil)
+        
+        
+         self.password.transform = translate
+               UIView.animate(withDuration: 1, delay: 0, options: .curveEaseInOut, animations: {
+                   self.password.transform = .identity
+               }, completion: nil)
+        
+        
+        
+            
+            
+        
     }
-    
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -10,21 +10,80 @@ import UIKit
 
 class SixthAniViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var username: UITextField!
+    
+    
+    
+    @IBOutlet weak var password: UITextField!
+    
+    
+    
+    @IBOutlet weak var myImg: UIImageView!
+    
+    @IBOutlet weak var email: UITextField!
+    
+    
+    
+    @IBOutlet weak var fullname: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.myImg.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.myImg.transform = .identity
+        }, completion: nil)
+        
+        
+        self.username.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.username.transform = .identity
+        }, completion: nil)
+        
+        
+        self.password.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.password.transform = .identity
+        }, completion: nil)
+        
+        
+        self.email.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.email.transform = .identity
+        }, completion: nil)
+        
+        
+        self.fullname.transform = CGAffineTransform(scaleX: 0, y: 0)
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.fullname.transform = .identity
+        }, completion: nil)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

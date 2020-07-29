@@ -13,18 +13,22 @@ class TenthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        UIView.animate(withDuration: 5.0, animations: {
+            self.request.alpha = 0
+            print("animations")
+        },completion:
+            {finished in
+                print("Is finished? \(finished)")
+                UIView.animate(withDuration: 1.0, animations:{
+                self.follower.alpha = 0.5
+                },completion: nil)
+        })
+
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    @IBOutlet weak var follower: UIImageView!
+    @IBOutlet weak var request: UIImageView!
 }
+
+

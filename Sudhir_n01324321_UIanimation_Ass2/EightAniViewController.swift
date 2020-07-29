@@ -9,22 +9,54 @@
 import UIKit
 
 class EightAniViewController: UIViewController {
+    
+    let rotate = CGAffineTransform(rotationAngle: 360)
+    let translate = CGAffineTransform(translationX: -120, y: -120)
+    let scale = CGAffineTransform(scaleX: 2, y: 2)
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        self.addFrnd.transform = rotate.concatenating(translate).concatenating(scale)
+        UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.8,initialSpringVelocity: 0.5, options: [.autoreverse,.curveEaseInOut], animations: {
+            self.addFrnd.transform = .identity
+        }, completion: nil)
+        
+        
+        
+        
+        self.profile.transform = rotate.concatenating(translate).concatenating(scale)
+        UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.8,initialSpringVelocity: 0.5, options: [.autoreverse,.curveEaseInOut], animations: {
+            self.profile.transform = .identity
+        }, completion: nil)
+        
+        
+        
+        self.sendMessage.transform = rotate.concatenating(translate).concatenating(scale)
+        UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.8,initialSpringVelocity: 0.5, options: [.autoreverse,.curveEaseInOut], animations: {
+            self.sendMessage.transform = .identity
+        }, completion: nil)
+        
+        
+        
+        self.name.transform = rotate.concatenating(translate).concatenating(scale)
+        UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.8,initialSpringVelocity: 0.5, options: [.autoreverse,.curveEaseInOut], animations: {
+            self.name.transform = .identity
+        }, completion: nil)
+        
+        
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
+    @IBOutlet weak var addFrnd: UIImageView!
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var sendMessage: UIImageView!
+    
+    
+    @IBOutlet weak var profile: UIImageView!
 }
