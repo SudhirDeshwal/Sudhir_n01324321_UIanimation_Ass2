@@ -10,7 +10,7 @@ import UIKit
 
 class FifthAniViewController: UIViewController {
 
-    
+    //My outlets from controller
     @IBOutlet weak var myLable: UILabel!
     
     
@@ -24,6 +24,8 @@ class FifthAniViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //Animation
         self.myLable.transform = CGAffineTransform(scaleX: 0, y: 0)
         
         self.mySignup.transform = CGAffineTransform(scaleX: 0, y: 0)

@@ -25,7 +25,7 @@ class ThirdAniViewController: UIViewController {
         super.viewDidLoad()
 
       
-
+           //animation code
        dynamicAnimator = UIDynamicAnimator(referenceView: self.view) //1
 
        gravityBehavior = UIGravityBehavior(items: [myImgview]) //2

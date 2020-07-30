@@ -12,6 +12,9 @@ class NinthAniViewController: UIViewController {
     
   let rotate = CGAffineTransform(rotationAngle: 360)
 
+    
+    
+    //outlets
     @IBOutlet weak var map: UIImageView!
     
     
@@ -20,6 +23,9 @@ class NinthAniViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
+        //animation
         self.map.transform = rotate
         UIView.animate(withDuration: 3, delay: 0, options: .curveEaseInOut, animations: {
             self.map.transform = .identity

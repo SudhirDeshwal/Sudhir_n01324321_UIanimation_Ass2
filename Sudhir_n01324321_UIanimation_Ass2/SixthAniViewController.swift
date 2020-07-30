@@ -11,7 +11,7 @@ import UIKit
 class SixthAniViewController: UIViewController {
 
     
-    
+    //Outlets
     @IBOutlet weak var username: UITextField!
     
     
@@ -31,6 +31,9 @@ class SixthAniViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
+        //Animation
         self.myImg.transform = CGAffineTransform(scaleX: 0, y: 0)
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
             self.myImg.transform = .identity

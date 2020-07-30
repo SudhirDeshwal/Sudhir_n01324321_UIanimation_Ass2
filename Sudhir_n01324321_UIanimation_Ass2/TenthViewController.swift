@@ -14,6 +14,8 @@ class TenthViewController: UIViewController {
         super.viewDidLoad()
 
         
+        
+        //animation
         UIView.animate(withDuration: 5.0, animations: {
             self.request.alpha = 0
             print("animations")
@@ -26,7 +28,7 @@ class TenthViewController: UIViewController {
         })
 
     }
-
+//outlets
     @IBOutlet weak var follower: UIImageView!
     @IBOutlet weak var request: UIImageView!
 }

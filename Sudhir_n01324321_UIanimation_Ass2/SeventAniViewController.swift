@@ -13,6 +13,9 @@ class SeventAniViewController: UIViewController {
 let translate = CGAffineTransform(translationX: -120, y: -120)
 
     
+    
+    
+    //Outlets
     @IBOutlet weak var email: UITextField!
     
     
@@ -26,7 +29,7 @@ let translate = CGAffineTransform(translationX: -120, y: -120)
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        //animation
         self.email.transform = translate
         UIView.animate(withDuration: 1, delay: 0, options: .curveEaseInOut, animations: {
             self.email.transform = .identity

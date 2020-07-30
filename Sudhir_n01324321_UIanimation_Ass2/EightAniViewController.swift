@@ -19,6 +19,8 @@ class EightAniViewController: UIViewController {
         super.viewDidLoad()
         
         
+        
+        //animation
         self.addFrnd.transform = rotate.concatenating(translate).concatenating(scale)
         UIView.animate(withDuration: 3, delay: 0,usingSpringWithDamping: 0.8,initialSpringVelocity: 0.5, options: [.autoreverse,.curveEaseInOut], animations: {
             self.addFrnd.transform = .identity
@@ -50,7 +52,7 @@ class EightAniViewController: UIViewController {
 
     }
     
-
+//outlets
     @IBOutlet weak var addFrnd: UIImageView!
     
 

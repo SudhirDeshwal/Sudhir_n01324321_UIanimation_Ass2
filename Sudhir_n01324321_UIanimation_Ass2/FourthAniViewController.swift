@@ -10,23 +10,23 @@ import UIKit
 
 class FourthAniViewController: UIViewController {
 
-    
+    //card 1
     @IBOutlet weak var myCard1: UIImageView!
     
     
-    
+    //card 2
     @IBOutlet weak var myCard2: UIImageView!
     
-    
+    //image
     @IBOutlet weak var mybtnemail: UIImageView!
     
-    
+    //btn
     @IBOutlet weak var mybtnnumber: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    //animation code
         UIView.animate(withDuration: 1, animations: {
               self.myCard1.frame.origin.y += 40
             self.myCard2.frame.origin.y += 40
